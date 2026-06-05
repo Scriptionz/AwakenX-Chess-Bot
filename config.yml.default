@@ -1,4 +1,4 @@
-token: "XXXXXXXXXXXXXXXXXXXXXXXX"         # Lichess OAuth2 Token.
+token: ${{ secrets.LICHESS_TOKEN }}
 
 engines:
   standard:                               # Engine used for standard chess and when no suitable special engine is configured.
